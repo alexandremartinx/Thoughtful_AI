@@ -1,3 +1,5 @@
+#just messing around with ternary for fun
+
 class Package:
     def __init__(self, width, height, length, mass):
         self.width = width
