@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  thoughtfulai:
+    build: .
+    container_name: thoughtfulai_container
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: development
+    volumes:
+      - .:/app
